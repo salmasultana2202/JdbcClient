@@ -1,7 +1,11 @@
 spring:
   datasource:
-    url: jdbc:mysql://http:localhost:3306/student_db
+    url: jdbc:mysql://localhost:3306/student_db
     username: user1234
     password: User1234
 
   jpa.hibernate.ddl-auto: update
+ # jpa.properties.hibernate.dialect: org.hibernate.dialect.MySQLDialect
+
+  logging:
+    level: warn
